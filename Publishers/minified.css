@@ -1,0 +1,411 @@
+* {
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: top;
+    -webkit-font-smoothing: subpixel-antialiased;
+ /*   -webkit-text-stroke:1px transparent;*/
+/*   -webkit-text-stroke:0.5px;*/
+    text-rendering: optimizeSpeed;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html { 
+    overflow: hidden;
+}
+
+body, body button, body option {
+    background-color : #000000;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+
+h1 {
+    font-family: "Roboto",sans-serif !important;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 6px 0 0 5px;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+
+
+}
+
+
+#content-panels {
+    display: inline-block;
+    opacity: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    text-align: left;
+    width: 865px;
+    height: 389px;
+}
+
+#contentoverview h1 {
+    /*font-weight: 100;*/
+    font-weight: 300;
+    margin: 0;
+}
+
+.blocked {
+
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a3646+0,222b37+100 */
+    background: #2a3646; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2a3646 0%, #222b37 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #2a3646 0%,#222b37 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #2a3646 0%,#222b37 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a3646', endColorstr='#222b37',GradientType=0 ); /* IE6-9 */
+
+    /*background-color: #222b37;*/
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    overflow: auto;
+    padding: 20px 15px 20px 20px;
+    position: absolute;
+/*    width: 280px;*/
+    width: 355px;  
+    /*width: 349px;  */
+    /*width: 342px;  */
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.username{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline;
+    margin-left: 0px;
+    white-space: nowrap;
+    line-height: 0px;
+    position: relative !important;
+
+}
+.username .small{
+    padding-left: 2px;
+    font-size: 10px;
+    line-height: 0px;
+    position: relative !important;
+}
+.predevhub, .devhub{
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+    display: inline;
+    white-space: nowrap;
+
+}
+.devhub{
+    margin-left: 10px;
+}
+.predevhub{
+    margin-right: 10px;
+}
+
+.salesBadget {
+    width: 804px;
+    height: 387px;
+
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 61px;
+    position: absolute !important;
+    top: 2px;
+}
+
+
+.details-container {
+    font-size: 16px;
+    line-height: 24px;
+    white-space: nowrap;
+
+
+}
+
+
+.details-container .details:first-child {
+    margin-bottom: 5px;
+}
+.details-container .details {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.details {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.details-container a {
+    /*font-weight: 100;*/
+}
+
+
+.unrated{
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+
+
+#sale .pct, #saleLevel11 .pct {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#sale .off, #saleLevel11 .off {
+    font-size: 38px;
+    font-weight: 100;
+}
+
+#sale .percentage, #saleLevel11 .percentage {
+    font-weight: 600 !important;
+}
+
+
+
+#sale, #saleLevel11 {
+    color: #8ac249;
+    font-size: 40px;
+    line-height: 40px;
+    position: relative;
+/* -webkit-text-stroke: 2px;*/
+}
+
+#value{
+  -webkit-text-stroke: 4px !important;
+}
+
+#sale .percentage, #saleLevel11 .percentage {
+    margin: 4px 0 2px;
+}
+
+#sale span, #saleLevel11 span {
+    display: inline-block;
+    width: auto;
+}
+
+
+button {
+    border-radius: 3px;
+}
+
+
+div.action-container {
+    border-radius: 3px;
+    display: inline-block;
+    height: 20px;
+    width: 85px;
+}
+div.action-container, .download-manager .packages .package-details button.import, .download-manager .packages .package-details button.open-in-unity, .details button.licenses, .details button.entitled, .details .info {
+    background-color: #98aac7;
+    background-image: -moz-linear-gradient(center top , #98aac7 0px, #687c99 100%);
+    line-height: 20px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+
+button.download, .details .info {
+    width: 85px;
+}
+button.download {
+    float: left;
+}
+.download-manager .packages .package-details .action button, .download-manager .right button, button.download, .details button.licenses, .details button.entitled {
+    background-color: transparent;
+    border: 0 solid rgba(0, 0, 0, 0);
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3) inset;
+    color: #fff;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold !important;
+    height: 20px;
+    line-height: 14px;
+    padding: 0 7px;
+    position: absolute;
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+.details span.price {
+    width: auto;
+}
+.price {
+    color: #8ac249;
+    font-weight: 400;
+
+}
+.details span.original-price {
+    color: #8ac249;
+    font-size: 30px;
+    font-weight: 900;
+    display: inline;
+    margin-left: 5px;
+    width: auto;
+}
+
+.details span {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70px;
+}
+
+.details .action-container.green {
+    background: #8ac249 none repeat scroll 0 0 !important;
+    background-image: -moz-linear-gradient(center top , #65c774 0px, #008000 100%);
+}
+
+.details div.action-container {
+    margin-top: 5px;
+    width: 100px;
+}
+.details div.action-container, .details button.licenses, .details button.entitled, .details .info {
+    background: #2196f3 none repeat scroll 0 0 !important;
+}
+.details div.action-container {
+    border-radius: 1px;
+    display: inline-block;
+    height: auto !important;
+    line-height: 24px !important;
+    margin: 0 0 5px !important;
+    overflow: hidden;
+    position: relative;
+    width: auto !important;
+}
+
+.details button.download {
+    box-shadow: none;
+    float: left;
+    margin-top: -20px;
+    padding: 0 12px;
+    width: 100px;
+}
+.details button.download, .details button.licenses, .details button.entitled {
+    border: 0 none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    float: none !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    height: 26px !important;
+    line-height: 24px !important;
+    margin: 0 !important;
+    min-width: 90px;
+    padding: 0 10px !important;
+    position: relative !important;
+    text-shadow: none !important;
+    width: auto !important;
+}
+
+.rating {
+    display: inline-block !important;
+    width: auto;
+    line-height: 14px;
+}
+.rating span {
+    width: auto;
+}
+ol.toprated .rating {
+    margin-left: 2em
+}
+.rating .unrated {
+    font-weight: 300;
+    opacity: .6;
+}
+#featured .rating .unrated,
+#contentoverview .rating .unrated {
+    font-weight: 100;
+    font-size: 12px;
+}
+.rating.interactive div {
+    cursor: pointer;
+}
+.rating div {
+    display: inline-block !important;
+}
+.rating div.selected:after,
+.rating.interactive div:after {
+    content: '\e841';
+    font-family: 'Entypo';
+    font-size: 12px;
+    line-height: 14px;
+}
+.littleblock .rating div.selected:after {
+    font-size: 12px;
+}
+.rating.interactive div:after {
+    opacity: .2;
+}
+.rating.interactive div.selected:after {
+    opacity: 1;
+}
+.rating div.count {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: middle;
+
+    margin-left: 5px;
+}
+.rating div.count>span {
+    font-size: 9px;
+    margin: -1px 1px 0 1px;
+}
+.rating div.count>span:after {
+    font-family: 'Entypo' !important;
+    content: '\e800';
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url('fonts/roboto-v15-latin-100.woff2') format('woff2'), url('fonts/roboto-v15-latin-100.woff') format('woff'), url('fonts/roboto-v15-latin-100.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/roboto-v15-latin-300.woff2') format('woff2'), url('fonts/roboto-v15-latin-300.woff') format('woff'), url('fonts/roboto-v15-latin-300.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/roboto-v15-latin-regular.woff2') format('woff2'), url('fonts/roboto-v15-latin-regular.woff') format('woff'), url('fonts/roboto-v15-latin-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/roboto-v15-latin-500.woff2') format('woff2'), url('fonts/roboto-v15-latin-500.woff') format('woff'), url('fonts/roboto-v15-latin-500.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/roboto-v15-latin-700.woff2') format('woff2'), url('fonts/roboto-v15-latin-700.woff') format('woff'), url('fonts/roboto-v15-latin-700.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Entypo';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/entypo-plus.eot'); /* IE9 Compat Modes */
+    src: url('fonts/entypo-plus.woff') format('woff'), url('fonts/entypo-plus.svg') format('svg'), url('fonts/entypo-plus.ttf') format('truetype');
+}

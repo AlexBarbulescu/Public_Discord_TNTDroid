@@ -1,0 +1,193 @@
+{
+   "prefix": "!",
+   "maintanance": false,
+   "Administrator": "200160671084707841",
+   "TNTDroid": "202389617691852800",
+   "file": "/droid-DiscordLogin.log",
+   "pyfile": "/droid-python.log",
+   "parsing": "/droid-parsing.log",
+   "profanityFile": "/profanity.txt",
+   "disableProfanityNotification": "0",
+   "convertProfnityIdToUsername": "1",
+   "gitlabCommitAnnouncement": "0",
+   "deleteProfileMessagesfromChannels": "1",
+   "sendMessageOnJoin": "1",
+   "testconfig": false,
+   "rolesBanned": {
+      "desc": "Roles that are banned from bot to assign",
+      "roles": [
+         "Administrator",
+         "ModSquad",
+         "Bots",
+         "Enforcers",
+         "@everyone",
+         "Publishers",
+         "Helpers",
+         "Mod-Artists",
+         "Mod-Coders",
+         "Mod-Helpers",
+         "Streaming",
+         "Patreon",
+         "Patreon-Bot",
+         "Overwatch",
+         "UnityOfficial",
+         "Carbon"
+      ]
+   },
+   "rolesBotCanNotAssign": {
+      "desc": "",
+      "roles": [
+         "Administrator",
+         "ModSquad",
+         "Bots",
+         "Enforcers",
+         "Mod-Artists",
+         "Mod-Coders",
+         "Mod-Helpers",
+         "Streaming",
+         "Patreon",
+         "Patreon-Bot",
+         "Overwatch",
+         "UnityOfficial",
+         "Carbon"
+      ]
+   },
+   "roleAdministratorPermission": {
+      "desc": "",
+      "roles": [
+         "Administrator"
+      ]
+   },
+   "roleModSquadPermission": {
+      "desc": "roles that have ability to use modsquad commands",
+      "roles": [
+         "Administrator",
+         "ModSquad",
+         "Mod-Artists",
+         "Mod-Coders",
+         "Mod-Helpers",
+         "Enforcers"
+      ]
+   },
+   "serverID": {
+      "desc": "Unity Developer Hub - General-Chat",
+      "id": "204951876960124928"
+   },
+   "generalChannel": {
+      "desc": "General-Chat Channel",
+      "id": "206813296790077443"
+   },
+   "botDevelopmentChannel": {
+      "desc": "Bot-Development Channel",
+      "id": "206821282258485248"
+   },
+   "botFunctionalityChannel": {
+      "desc": "Bot-Functionality Channel",
+      "id": "256411017842655236"
+   },
+   "botAnnouncementChannel": {
+      "desc": "Bot-Announcement Channel",
+      "id": "213177844833058817"
+   },
+   "botXPMessageChannel": {
+      "desc": "Bot-XPMessage Channel",
+      "id": "260416365092012032"
+   },
+   "announcementsChannel": {
+      "desc": "General Announcement Channel",
+      "id": "206846565925650432"
+   },
+   "botCommandsChannel": {
+      "desc": "Bot-Commands Channel",
+      "id": "207741022262919170"
+   },
+   "botPublisherPrivateChannel": {
+      "desc": "Publisher Private Channel",
+      "id": "217940497275158529"
+   },
+   "unityNewsChannel": {
+      "desc": "Unity News Channel",
+      "id": "211111851503779840"
+   },
+   "botPrivateChannel": {
+      "desc": "Admin Private Channel",
+      "id": "213610663472398336"
+   },
+   "devStreamChannel": {
+      "desc": "Dev-Stream Channel",
+      "id": "234188067194273793"
+   },
+   "mutedRoleID": "221120789544435714",
+   "streamingRoleID": "233830762883842048",
+   "streamerRoleID": "233814950710214659",
+   "publisherRoleID": "206830803575898112",
+   "arrayAllowedChannels": {
+      "desc": "Allow commands on this channels",
+      "channels": [
+         "207741022262919170",
+         "206821282258485248",
+         "256411017842655236"
+      ]
+   },
+   "arrayAllowedCommands": {
+      "desc": "Allow commands on this channels",
+      "commands": [
+         "!slap",
+         "!codetags"
+      ]
+   },
+   "arrayAllowedMessageDeleteChannels": {
+      "desc": "Allowed channels where message delete is not logged.",
+      "channels": [
+         "213177844833058817",
+         "206821282258485248",
+         "256411017842655236"
+      ]
+   },
+   "arrayAllowedCMessageDeleteUsers": {
+      "desc": "Allowed Users to not log their delete messages",
+      "users": [
+         "202389617691852800",
+         "200160671084707841"
+      ]
+   },
+   "arrayBannedChannels": {
+      "desc": "Banned channels from stats and exp",
+      "channels": [
+         "207741022262919170",
+         "206821282258485248",
+         "217940497275158529",
+         "256411017842655236"
+      ]
+   },
+   "arrayNoProfanityChannels": {
+      "desc": "Don't count profanity in this channels",
+      "channels": [
+         "213177844833058817",
+         "206821282258485248",
+         "213610663472398336",
+         "256411017842655236"
+      ]
+   },
+   "arrayNotAllowedChannels": {
+      "desc": "Don't allow exp and message statistics on this channels",
+      "channels": [
+         "207741022262919170",
+         "206821282258485248",
+         "213610663472398336",
+         "213177844833058817",
+         "206846565925650432",
+         "211111851503779840",
+         "256411017842655236"
+      ]
+   },
+   "arrayProfileCardsNoDelete": {
+      "desc": "Allow Profile Cards to this channels",
+      "channels": [
+         "207741022262919170",
+         "206821282258485248",
+         "213610663472398336",
+         "256411017842655236"
+      ]
+   }
+}
